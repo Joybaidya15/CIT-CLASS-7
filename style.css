@@ -1,0 +1,235 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+img{
+    max-width: 100%;
+}
+a{
+    text-decoration: none;
+}
+.main{
+    width: 100%;
+}
+.heading-section{
+    background-color: #111;
+    text-align: center;
+}
+.menu{
+    padding: 10px 0px;
+}
+.menu ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    line-height: 1.5rem;
+}
+.menu ul li{
+    
+}
+.menu ul li a {
+    font-size: 17px;
+    display: block;
+    color: #fff;
+    padding: 4px 10px;
+    font-weight: 600;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+.menu ul li:hover > a{
+    background-color:#ecf0f1 ;
+    color: #111 !important;
+}
+.menu ul li:nth-child(7){
+    background-color: #3498db;
+    border-radius: 5px;
+}
+
+
+/* drop down menu */
+.menu ul li{
+    position: relative;
+}
+.menu ul li ul {
+    position: absolute;
+    top: 41px;
+    left: 0;
+    flex-direction: column;
+    background-color: black;
+    width: 158px;
+    margin-top: 49%;
+    text-align: justify;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.5s;
+}
+.menu ul li ul li{}
+.menu ul li ul li a{}
+.menu ul li:hover ul{
+    opacity: 1;
+    visibility: visible;
+    margin-top: 0;
+}
+/* header end */
+/* banner-section */
+
+.banner-section{
+    background-image: url("./IMG/young-mens\(1\).jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: scroll;
+    width: 100%;
+    height: 600px;
+    text-align: center;
+}
+.slider {
+    margin: 0px 35px;
+    background-color: #fff;
+    text-align: center;
+    display: inline-block;
+    padding: 12px;
+    margin-top: 17%;
+}
+.slider h1{}
+.sub-slider {
+    background-color: #fff;
+    margin: 13px 22px;
+    padding: 9px 0px;
+}
+.sub-slider p {
+    font-size: 21px;
+    font-weight: 600;
+}
+.button {
+    margin-top: 5%;
+}
+.button a {
+    display: inline-block;
+    background-color: red;
+    padding: 13px;
+    color: #ffff;
+    transition: 0.5s;
+}
+.button a:hover{
+    background-color: #2ecc71;
+}
+/* banner section end */
+.text-section{}
+.text-section h1 {
+    text-align: center;
+    padding: 14px;
+}
+.text{}
+.text ul{
+    border: 1px solid #ddd;
+    list-style-position: outside !important;
+    background-color: #ffffff;
+}
+.text ul li {
+    text-align: justify;
+    padding: 13px;
+}
+.text-2{}
+.text-2 ul{
+    border: 1px solid #ddd;
+    list-style-position: inside !important;
+    list-style: square;
+    background-color: #ffffff;
+}
+.text-2 ul li {
+    text-align: justify;
+    padding: 13px;
+}
+/* text-section end */
+/* contact-section */
+.contact-section {
+    height: 133px;
+    background-color: #f2f2f2;
+    text-align: center;
+    margin: 38px 0px;
+}
+form {
+    margin-top: 5%;
+    display: inline-block;
+}
+.email {
+    width: 388px;
+    padding: 6px 6px;
+    border-bottom: 1px solid red !important;
+    border: 0px;
+}
+.subs {
+    width: 151px;
+    padding: 6px 0px;
+    background-color: #ff0000;
+    border: 0;
+    color: #fff;
+    font-size: 15px;
+}
+/* contact-end */
+/* list type */
+
+.list-style {
+    text-align: center;
+    border: 1px dotted #ddd;
+    padding: 20px;
+  
+}
+.list-style h1 {
+    padding: 7px 0px;
+    font-weight: 500;
+}
+.style-1{
+    display: inline-block;
+    
+}
+.style-1 ul {
+    list-style: lower-roman;
+    margin-right: 20px;
+}
+.style-2{
+    display: inline-block;
+}
+.style-2 ul{
+    list-style: square;
+    margin-right: 20px;
+}
+.style-3{
+    display: inline-block;
+}
+.style-3 ul{
+    list-style: lower-greek;
+
+}
+/* list style end */
+.footer-section {
+    background-color: #111;
+    padding: 10px 0px;
+}
+.footer-section p {
+    text-align: center;
+    color: #fff;
+}
+.f-menu{
+    padding: 5px 0px;
+}
+.f-menu ul{
+    display: flex;
+    justify-content: center;
+}
+.f-menu ul li{
+    list-style: none;
+}
+.f-menu ul li a {
+    color: #fff;
+    font-size: 22px;
+    padding: 6px 6px;
+    border-radius: 50%;
+}
+.f-menu ul li:hover a{
+    background-color: #2ecc71;
+    color: #e67e22;
+}
+/* footer end */
